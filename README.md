@@ -1,9 +1,8 @@
 # gitblog
 这是一个极轻量级的，基于git issue的个人博客模板，非常适合于想在GitHub pages上搭建个人博客的人。
 
-[示例页面](https://imuncle.github.io/gitblog)
+[示例页面](https://chblog.top/)
 
-[English](README_en.md)
 
 ## 现有功能
 - [x] 发表文章
@@ -31,13 +30,13 @@
 第二种办法就是clone仓库
 
 ```git
-git clone "https:/github.com/imuncle/gitblog"
+git clone "945811271/chenhui.github.io"
 ```
 
 ### 申请GitHub OAuth APP
 点击[这里](https://github.com/settings/applications/new)申请。
 
-注意申请时的**callback URL**一定要填写正确。一般就写自己网站的首页就行，比如https://imuncle.github.io 。
+注意申请时的**callback URL**一定要填写正确。一般就写自己网站的首页就行，比如https://github.com/945811271/chenhui.github.io 。
 
 申请完毕后会拿到对应的唯一的**client_id**和**client_secret**，这两个字符串在后面的配置中会使用到。
 
@@ -143,7 +142,7 @@ totop.png|右下角“回到顶部”按钮图标
 如果没有前端知识，建议更改图片时不要更改文件名。
 
 ## API接口
-API接口的实现见[api.html](https://github.com/imuncle/gitblog/blob/master/api.html)，通过访问该文件获取信息，使用url参数指定获取的信息内容。具体的用法如下。
+API接口的实现见[api.html](https://github.com/imuncle/chenhui.github.io/blob/master/api.html)，通过访问该文件获取信息，使用url参数指定获取的信息内容。具体的用法如下。
 
 ### 获取菜单信息
 ```javascript
