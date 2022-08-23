@@ -1,6 +1,0 @@
-.gitignore
-venv
-.idea
-settings.py
-db.sqlite3
-mysite/__pycache__/
