@@ -152,7 +152,7 @@ var gitblog = function(config) {
         this.page = new Pages();
         this.icons = [];
         this.icon_num = 0;
-        this.content = 'Powered by <a href="https://github.com/imuncle/gitblog" target="_blank" style="color: aquamarine;text-decoration:none;border-bottom: 1px solid #79f8d4;">gitblog</a>';
+        this.content = 'Powered by <a href="https://github.com/945811271/chenhui.github.io.git" target="_blank" style="color: aquamarine;text-decoration:none;border-bottom: 1px solid #79f8d4;">gitblog</a>';
     }
 
     Footer.prototype = {
@@ -801,7 +801,7 @@ var gitblog = function(config) {
         self.button.init();
     }
 
-    console.log('\n' + ' %c Gitblog' + ' %c https://github.com/imuncle/gitblog \n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
+    console.log('\n' + ' %c Gitblog' + ' %c https://github.com/945811271/chenhui.github.io.git \n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
 }
 
 $.ajax({
