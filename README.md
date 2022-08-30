@@ -3,7 +3,6 @@
 
 [示例页面](https://imuncle.github.io/gitblog)
 
-[English](README_en.md)
 
 ## 现有功能
 - [x] 发表文章
