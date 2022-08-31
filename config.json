@@ -12,14 +12,14 @@
     },
     "menu": {
         "首页":"./"
-        "学习日志":"./"
+        "学习日志":"./issue_per_label.html?label=learn"
     },
     "friends": {
     },
     "icons": {
         "Github" : {
             "icon_src" : "images/github.svg",
-            "href" : "https://github.com/imuncle/gitblog",
+            "href" : "https://github.com/945811271/chenhui.github.io.git",
             "hidden_img" : null,
             "width" : 0
         }
