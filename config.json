@@ -11,7 +11,7 @@
         "state": "open"
     },
     "menu": {
-        "首页":"./"
+        "首页":"./",
         "学习日志":"issue_per_label.html?label=learn"
     },
     "friends": {
