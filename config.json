@@ -13,6 +13,7 @@
     "menu": {
         "首页":"./",
         "学习记录":"./issue_per_label.html?label=learn"
+        "日常记录":"./issue_per_label.html?label=vlog"
     },
     "friends": {
         "myself" : "https://github.com/945811271"
