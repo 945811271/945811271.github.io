@@ -15,7 +15,7 @@
         "学习日志":"issue_per_label.html?label=learn"
     },
     "friends": {
-        myself : "https://github.com/945811271"
+        "myself" : "https://github.com/945811271"
     },
     "icons": {
         "Github" : {
