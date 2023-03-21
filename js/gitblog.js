@@ -91,8 +91,19 @@ var gitblog = function(config) {
         },
         show: function() {
             var menu = this;
+            var imgExtensions = ['jpg', 'jpeg', 'png', 'gif'];
+
             for(var name in config.menu) {
-                document.getElementById("menu").innerHTML += '<li><a href=' + config.menu[name] + '><span>' + name + '</span></a></li>';
+                var link = config.menu[name];
+                var ext = link.split('.').pop().toLowerCase(); // 获取链接的后缀名，并转为小写
+                var isImg = imgExtensions.includes(ext); // 判断后缀名是否为图片类型的后缀名
+
+                // 根据链接是否为图片类型，生成不同的 HTML
+                if(isImg) {
+                    document.getElementById("menu").innerHTML += '<li><a href=' + link + '><img src=' + link + ' alt=' + name + '><span>' + name + '</span></a></li>';
+                } else {
+                    document.getElementById("menu").innerHTML += '<li><a href=' + link + '><span>' + name + '</span></a></li>';
+                }
             }
             if (Object.keys(config.friends).length != 0) {
                 var menu_friend = document.getElementById("friends");
